@@ -1,0 +1,149 @@
+@media (max-width: 450px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .contact-text-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    line-height: 24px;
+    width: 100%;
+  }
+
+  .contact-container {
+    position: relative;
+    background-color: rgb(231, 129, 107);
+    margin: 110px 0% 20px 0%;
+    color: white;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+
+  .contact-container img {
+    transform: rotate(180deg);
+    height: 100%;
+  }
+
+  .contact-content {
+    position: absolute;
+    /* width: 100%; */
+    display: flex;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    align-items: center;
+    /* column-gap: ; */
+    justify-content: space-between;
+    margin: 0 0%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-text-content {
+    width: 90%;
+  }
+
+  .contact-text-content h1 {
+    text-align: center;
+  }
+
+  .contact-text-content span {
+    text-align: center;
+    list-style: 30px;
+    /* color: black; */
+    display: block;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .input-cont {
+    position: relative;
+  }
+
+  .input-cont i {
+    position: absolute;
+    /* display: flex; */
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.79rem;
+  }
+
+  .input-cont input,
+  .input-cont textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    resize: none;
+    outline-color: lightblue;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+  .btn {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .btn button {
+    background-color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 28px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    border: none;
+  }
+
+  .contact-text-content h1 {
+    margin: 0;
+  }
+
+  .location-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 40px 10% 150px 10%;
+    gap: 40px;
+  }
+
+  .location-cont .location {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .location-cont .location img {
+    /* width: 10px; */
+  }
+
+  .location-cont .location .venue {
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .location-cont .location a {
+    background-color: rgb(231, 129, 107);
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .hide {
+    display: none;
+  }
+}

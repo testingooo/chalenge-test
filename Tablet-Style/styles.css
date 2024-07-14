@@ -202,11 +202,11 @@
     border-radius: 13px;
     background-color: rgb(231, 129, 107);
     width: 90%;
-    margin: 50px 5% 0 5%;
+    margin: 120px 5% 0 5%;
     display: flex;
     flex-direction: column;
     column-gap: 2%;
-    height: 40vh;
+    height: 70vh;
     overflow: hidden;
     position: relative;
   }
@@ -229,13 +229,13 @@
   }
 
   .first-container .content-text {
-    padding: 80px 15% 0 15%;
+    padding: 80px 10% 0 10%;
     display: flex;
     flex-direction: column;
     color: white;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     top: 0%;
     position: absolute;
     height: 23vh;
@@ -268,7 +268,7 @@
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.8);
     animation: small-1 1.1s linear 1;
-    line-height: 27px;
+    line-height: 22px;
   }
 
   @keyframes small-1 {
@@ -571,7 +571,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 35vh;
+    height: 45vh;
     overflow: hidden;
   }
 
@@ -809,5 +809,14 @@
 
   .hide {
     display: none;
+  }
+
+  .content-text a {
+    transition: background-color 0.4s, color 0.4s;
+  }
+
+  .content-text a:hover {
+    background-color: rgb(254, 166, 146);
+    color: rgb(255, 255, 255);
   }
 }

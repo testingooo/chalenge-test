@@ -206,7 +206,7 @@
     display: flex;
     flex-direction: column;
     column-gap: 2%;
-    height: 70vh;
+    height: 750px;
     overflow: hidden;
     position: relative;
   }
@@ -225,7 +225,7 @@
   .display-img img:nth-child(2) {
     margin-top: 0%;
     margin-right: 0px;
-    margin-top: -80%;
+    margin-top: -55%;
   }
 
   .first-container .content-text {
@@ -237,16 +237,18 @@
     justify-content: space-between;
     width: 80%;
     top: 0%;
+    gap: 15px;
     position: absolute;
     height: 23vh;
   }
 
   .first-container .content-text h1 {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     width: 100%;
     animation: h1-1 1s linear 1;
     text-align: center;
+    letter-spacing: 1px;
   }
 
   @keyframes h1-1 {
@@ -262,13 +264,14 @@
   }
 
   .first-container .content-text small {
-    width: 100%;
+    width: 90%;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.8);
     animation: small-1 1.1s linear 1;
     line-height: 22px;
+    letter-spacing: 1px;
   }
 
   @keyframes small-1 {
@@ -286,9 +289,10 @@
   .first-container .content-text a {
     background-color: white;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 15px;
     border-radius: 5px;
+    letter-spacing: 1px;
     color: black;
     margin-top: 10px;
     animation: a-1 1.2s linear 1;
@@ -704,6 +708,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 20px;
   }
 
   footer .body .contact {
@@ -717,6 +722,10 @@
     font-weight: 500;
     font-size: 1.1rem;
     display: inline-block;
+  }
+
+  footer .body .contact span:nth-child(3) {
+    margin-bottom: 20px;
   }
 
   .social-link {

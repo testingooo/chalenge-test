@@ -85,16 +85,17 @@
         </div>
         <form class="contact-form">
           <div class="input-cont">
-            <input type="text" placeholder="Name" />
-            <i class="hide">Name is required</i>
+            <input type="text" placeholder="Name" class="name"/ >
+            <i class="hide name-error">Name is required</i>
           </div>
           <div class="input-cont">
-            <input type="text" placeholder="Email Address" />
-            <i class="hide">Email Address is required</i>
+            <input type="text" placeholder="Email Address" class="email" />
+            <i class="hide email-error">Email Address is required</i>
+
           </div>
           <div class="input-cont">
-            <input type="text" placeholder="Phone" />
-            <i class="hide">Phone is required</i>
+            <input type="text" placeholder="Phone" class="phone" />
+            <i class="hide email-error">Phone is required</i>
           </div>
           <div class="input-cont">
             <textarea
@@ -103,8 +104,9 @@
               placeholder="Your Message"
               rows="5"
               cols="50"
+              class="message"
             ></textarea>
-            <i class="hide">Your Message is required</i>
+            <i class="hide message-error">Your Message is required</i>
           </div>
           <div class="btn"><button>SUBMIT</button></div>
         </form>
@@ -160,7 +162,8 @@
             <span>3886 Wellingto Street</span>
             <span>Toronto, Ontario M9C 3j5</span>
             <span>Contact Us (Central Office):</span>
-            <span>p: +1 253-863-8967</span>
+            <span style="color: white; text-decoration: none"
+              >p: +1 253-863-8967</span
             <span>M: contact@designo.co</span>
           </div>
           <div class="social-link">

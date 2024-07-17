@@ -206,7 +206,7 @@
     display: flex;
     flex-direction: column;
     column-gap: 2%;
-    height: 490px;
+    height: 60vh;
     overflow: hidden;
     position: relative;
   }

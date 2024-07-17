@@ -1,6 +1,6 @@
 import { header } from "./Utillis/header.js";
 import { sendEmail } from "./Utillis/contact-details.js";
-header;
+header();
 
 document.querySelector("form").addEventListener("submit", (e) => {
   const name = document.querySelector(".name");

@@ -559,8 +559,8 @@
     background-color: rgba(231, 129, 107);
     position: relative;
     color: white;
-    /* width: 100%; */
-    margin: -5px 5% -40% 5%;
+    width: 96%;
+    margin: -5px 2% -40% 2%;
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -593,7 +593,7 @@
 
   .last-cont-text {
     margin-left: 0px;
-    width: 100%;
+    width: 90%;
     display: flex;
     row-gap: 10px;
     flex-direction: column;
@@ -601,7 +601,7 @@
 
   .last-cont-text span {
     font-weight: 300;
-    font-size: 0.94rem;
+    font-size: 0.9rem;
     display: inline-block;
     text-align: center;
     line-height: 20px;
@@ -621,7 +621,7 @@
     margin: 0;
     width: 100%;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   footer {

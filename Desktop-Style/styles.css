@@ -605,6 +605,11 @@ footer .body .contact span {
   display: inline-block;
 }
 
+footer .body .contact span:nth-child(5) {
+  color: white;
+  text-decoration: none;
+}
+
 .social-link {
   display: flex;
   column-gap: 15px;
